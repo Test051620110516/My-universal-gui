@@ -1,0 +1,114 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("My universal script loader by Adam", "DarkTheme")
+
+local Tab = Window:NewTab("😀General exploits😀")
+
+local Section = Tab:NewSection("Your normal any day exploits")
+
+Section:NewButton("Fly script", "It makes you fly!", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Test051620110516/Roblox-fly-hacks/main/hacks'),true))()
+end)
+
+Section:NewButton("Seat fly exploit", "If you are in an unanchored seat you can youse this to fly", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/MHE1cbWF"))()
+end)
+
+Section:NewButton("Noclip exploit", "Wow you can go through walls", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/pKV2Ys4E'),true))()
+end)
+
+Section:NewButton("Mobile keyboard exploit", "Gives you an additional keyboard", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/Keyboardv3/main/mobKeyboard"))()
+end)
+
+Section:NewButton("Collision exploit", "Gives you collision in non collision games. You can also use this for fling in non collision games", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/Collision.txt'),true))()
+end)
+
+Section:NewButton("Infinite yield", "You have probably heard of the bang script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+local Tab = Window:NewTab("🤑Trolling🤑")
+
+local Section = Tab:NewSection("Funny scripts you can troll with")
+
+Section:NewButton("Swear gui-WARNING EXPLICIT CONTENT", "Hehe I can swear and everybody will love it", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/vqmpjay/chatbypasser/main/chatbypasserv1'),true))()
+end)
+
+Section:NewButton("Fake IP leaker -click dots for info", "use the players full real name and then you can troll really good", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Test051620110516/Fake-ip-grabber/main/Exploit'),true))()
+end)
+
+Section:NewButton("Scp 173 fling exploit", "ess see pee tato", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_nN0N66DHV2BjPwzYN59M17qSSlvJryM201CSC1sg07czxnZf48h9GHOFGd87G6Hh.lua.txt'),true))()
+end)
+
+Section:NewButton("Booty shake exploit -Needs avatar", "Booty shake🤤", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Test051620110516/Twerk-exploit/main/Exploit'),true))()
+end)
+
+Section:NewButton("FE chat art", "Almost anyone would draw a pp", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Test051620110516/Fe-chat-art/main/Exploit'),true))()
+end)
+
+Section:NewButton("FE invisible script", "Hmm is that a ghost?", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/0Ben1/fe./dbb6ce6f6cee4f7a5c9e20d7b88e83db2a93bf25/Invisible%20GUI'))()
+end)
+
+local Tab = Window:NewTab("✂️FE scripts✂️")
+
+local Section = Tab:NewSection("You need a special avatars for these")
+
+Section:NewButton("FE avatar hat builder", "Instructions- drag your hat to desired body part", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Test051620110516/Fe-avatar-builder-exploit/main/Exploit'),true))()
+end)
+
+Section:NewButton("Slasher -Needs avatar ", "Equip a weapon before executing and use R,Z,C keys", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/GenesisFE/main/Obfuscations/Neptunian%20V"))()
+end)
+
+Section:NewButton("Ak47 script -Needs avatar", "Equip a weapon before executing", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/GenesisFE/main/Obfuscations/AK47"))()
+end)
+
+local Tab = Window:NewTab("📜Gui’s📜")
+
+local Section = Tab:NewSection("Da real deal scripts")
+
+Section:NewButton("Prison life script", "HACKER!!!!", function()
+    loadstring(game:HttpGet('https://paste.website/p/96d68817-3f1e-4fef-a8b8-9aafdc810329.txt'))()
+end)
+
+Section:NewButton("Prison life admin", "OMG ADMIN?!?!", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/Script'))()
+end)
+
+Section:NewButton("Slap battles exploits", "Cool", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/cheesynob39/R2O/main/LOADSTRING.lua"))()
+end)
+
+Section:NewButton("ESP tracer exploit", "Helps find the little rats in slap royale", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MichaelScripter/MiniScript/main/Spy%20gui.lua"))()
+end)
+
+Section:NewButton("Da hood lock and speed", "Kill slenders with lock and speed LOL", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Test051620110516/Dahood-mobile-speed/main/Exploit'),true))()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ryzzchips/SubtoRyzzchips/main/SubtoRyzzchipsformorecoolscript", true))()
+end)
+
+Section:NewButton("Auto piano gui", "People actually believe you", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/3.2Lol/main/AutoPiano3-2.lua", true))()
+end)
+
+Section:NewButton("Big paint ball exploits", "HACKER LEAVE THE GAME!!!!!", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Test051620110516/Big-paintball-hacks/main/Big%20paintball%20hacks'),true))()
+end)
+
+Section:NewButton("Redwood prison gui", "nobody plays this game… but", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Test051620110516/Redwood-prison-exploits/main/Exploit'),true))()
+end)
+
