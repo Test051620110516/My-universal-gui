@@ -35,7 +35,7 @@ local Tab = Window:NewTab("🤑Trolling🤑")
 local Section = Tab:NewSection("Funny scripts you can troll with")
 
 Section:NewButton("Swear gui-WARNING EXPLICIT CONTENT", "Hehe I can swear and everybody will love it", function()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/vqmpjay/chatbypasser/main/chatbypasserv1'),true))()
+    loadstring(game:HttpGet("https://vadrifts.dev/source.lua"))()
 end)
 
 Section:NewButton("Fake IP leaker -click dots for info", "use the players full real name and then you can troll really good", function()
@@ -44,6 +44,10 @@ end)
 
 Section:NewButton("Scp 173 fling exploit", "ess see pee tato", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_nN0N66DHV2BjPwzYN59M17qSSlvJryM201CSC1sg07czxnZf48h9GHOFGd87G6Hh.lua.txt'),true))()
+end)
+
+Section:NewButton("Fe hat spin click dots for info", "say .mode 1-12 and there is speed say .speed", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Test051620110516/Fe-hat-spin/main/Fe%20hat%20spin'),true))()
 end)
 
 Section:NewButton("Booty shake exploit -Needs avatar", "Booty shake🤤", function()
@@ -111,4 +115,3 @@ end)
 Section:NewButton("Redwood prison gui", "nobody plays this game… but", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/Test051620110516/Redwood-prison-exploits/main/Exploit'),true))()
 end)
-
