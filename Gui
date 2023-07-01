@@ -14,10 +14,6 @@ Section:NewButton("Seat fly exploit", "If you are in an unanchored seat you can 
     loadstring(game:HttpGet("https://pastebin.com/raw/MHE1cbWF"))()
 end)
 
-Section:NewButton("Infinite jump script", "u can jump infinitely", function()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Test051620110516/Infjump/main/Exploit'),true))()
-end)
-
 Section:NewButton("Noclip exploit", "Wow you can go through walls", function()
     loadstring(game:HttpGet(('https://pastebin.com/raw/pKV2Ys4E'),true))()
 end)
