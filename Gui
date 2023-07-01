@@ -10,8 +10,12 @@ Section:NewButton("Fly script", "It makes you fly!", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/Test051620110516/Roblox-fly-hacks/main/hacks'),true))()
 end)
 
-Section:NewButton("Seat fly exploit", "If you are in an unanchored seat you can youse this to fly", function()
+Section:NewButton("Seat fly exploit", "If you are in an unanchored seat you can use this to fly", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/MHE1cbWF"))()
+end)
+
+Section:NewButton("Infinite jump script", "u can jump infinitely", function()
+    loadstring(game:HttpGet(('https://github.com/Test051620110516/Infjump/blob/main/Exploit'),true))()
 end)
 
 Section:NewButton("Noclip exploit", "Wow you can go through walls", function()
