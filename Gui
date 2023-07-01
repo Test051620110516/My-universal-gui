@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
-local Window = Library.CreateLib("My universal script loader by Adam", "DarkTheme")
+local Window = Library.CreateLib("My universal script loader", "DarkTheme")
 
 local Tab = Window:NewTab("😀General exploits😀")
 
