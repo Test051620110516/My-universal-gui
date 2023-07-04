@@ -91,6 +91,10 @@ local Tab = Window:NewTab("📜Gui’s📜")
 
 local Section = Tab:NewSection("Da real deal scripts")
 
+Section:NewButton("Universal script searcher", "scripts within a script?", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/ScriptSearcher"))()
+end)
+
 Section:NewButton("Prison life script", "HACKER!!!!", function()
     loadstring(game:HttpGet('https://paste.website/p/96d68817-3f1e-4fef-a8b8-9aafdc810329.txt'))()
 end)
