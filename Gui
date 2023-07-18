@@ -47,6 +47,10 @@ local Tab = Window:NewTab("🤑Trolling🤑")
 
 local Section = Tab:NewSection("Funny scripts you can troll with")
 
+Section:NewButton("Swear gui-EXPLICIT CONTENT", "Hehe I can swear at little kids now >:)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SXNTII/VadriftsHost/main/VadriftsAlternateVersion"))()
+end)
+
 Section:NewButton("Fake IP leaker -click dots for info", "use the players full real name and then you can troll really good", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/Test051620110516/Fake-ip-grabber/main/Exploit'),true))()
 end)
