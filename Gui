@@ -31,6 +31,10 @@ Section:NewButton("Fullbright", "it’s only applied to u tho", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Test051620110516/Fullbright/main/Exploit", true))()
 end)
 
+Section:NewButton("click tp", "click to teleport", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Test051620110516/Click-tp/main/Tool'),true))()
+end)
+
 Section:NewButton("Mobile keyboard exploit", "Gives you an additional keyboard", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/Keyboardv3/main/mobKeyboard"))()
 end)
@@ -53,6 +57,10 @@ local Section = Tab:NewSection("Funny scripts you can troll with")
 
 Section:NewButton("Swear gui-EXPLICIT CONTENT", "Hehe I can swear at little kids now >:)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SXNTII/VadriftsHost/main/VadriftsAlternateVersion"))()
+end)
+
+Section:NewButton("mimic script", "LOL I CAN SAY YOUR WORDS BEFORE YOU", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe./8fb5ed20fb168d1ae3044ede45b90f67e3fb37a2/file'),true))()
 end)
 
 Section:NewButton("Fake IP leaker -click dots for info", "use the players full real name and then you can troll really good", function()
@@ -131,4 +139,8 @@ end)
 
 Section:NewButton("Big paint ball exploits", "HACKER LEAVE THE GAME!!!!!", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/Test051620110516/Big-paintball-hacks/main/Big%20paintball%20hacks'),true))()
+end)
+
+Section:NewButton("Auto luobu", "get credits so you can get the grey avatar", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Test051620110516/Auto-get-luobu/main/Exploit'),true))()
 end)
