@@ -83,22 +83,6 @@ Section:NewButton("FE invisible script", "Hmm is that a ghost?", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/0Ben1/fe./dbb6ce6f6cee4f7a5c9e20d7b88e83db2a93bf25/Invisible%20GUI'))()
 end)
 
-local Tab = Window:NewTab("✂️FE scripts✂️")
-
-local Section = Tab:NewSection("You need a special avatars for these")
-
-Section:NewButton("FE avatar hat builder", "Instructions- drag your hat to desired body part", function()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Test051620110516/Fe-avatar-builder-exploit/main/Exploit'),true))()
-end)
-
-Section:NewButton("Slasher -Needs avatar ", "Equip a weapon before executing and use R,Z,C keys", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/GenesisFE/main/Obfuscations/Neptunian%20V"))()
-end)
-
-Section:NewButton("Ak47 script -Needs avatar", "Equip a weapon before executing", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/GenesisFE/main/Obfuscations/AK47"))()
-end)
-
 local Tab = Window:NewTab("📜Gui’s📜")
 
 local Section = Tab:NewSection("Da real deal scripts")
@@ -143,4 +127,27 @@ end)
 
 Section:NewButton("Auto luobu", "get credits so you can get the grey avatar", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/Test051620110516/Auto-get-luobu/main/Exploit'),true))()
+end)
+
+Section:NewButton("Tprr auto get tape script", "idk what to put here", function()
+    local Player = game.Players.LocalPlayer
+local char = Player.Character.HumanoidRootPart
+while wait(0) do
+if game.Workspace:WaitForChild("Tape") then
+   game.Workspace.Tape.CFrame = char.CFrame
+   else
+       print("Couldn't find Tape")
+end
+end
+
+local Player = game.Players.LocalPlayer
+local char = Player.Character.HumanoidRootPart
+while wait(0) do
+if game.Workspace:WaitForChild("Gift") then
+   game.Workspace.Tape.CFrame = char.CFrame
+   else
+       print("Couldn't find Gift")
+end
+end
+
 end)
