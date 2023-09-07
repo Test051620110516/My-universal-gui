@@ -108,7 +108,7 @@ Section:NewButton("Slap battles exploits", "Cool", function()
 end)
 
 Section:NewButton("ESP tracer exploit", "Helps find the little rats in slap royale", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/MichaelScripter/MiniScript/main/Spy%20gui.lua"))()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/zachisfunny/esp-unversal/main/script'),true))()
 end)
 
 Section:NewButton("Da hood lock and speed", "Kill slenders with lock and speed LOL", function()
