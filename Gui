@@ -47,6 +47,10 @@ Section:NewButton("Collision exploit", "Gives you collision in non collision gam
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/Collision.txt'),true))()
 end)
 
+Section:NewButton("Nameless admin", "yes this has the bang script too", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'),true))()
+end)
+
 Section:NewButton("Infinite yield", "You have probably heard of the bang script", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
