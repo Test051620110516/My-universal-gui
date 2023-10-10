@@ -71,10 +71,6 @@ Section:NewButton("Touch fling", "Pro fling", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
 end)
 
-Section:NewButton("Scp 173 fling exploit", "ess see pee tato", function()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_nN0N66DHV2BjPwzYN59M17qSSlvJryM201CSC1sg07czxnZf48h9GHOFGd87G6Hh.lua.txt'),true))()
-end)
-
 Section:NewButton("Fe hat spin click dots for info", "say .mode 1-12 and there is speed say .speed", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/Test051620110516/Fe-hat-spin/main/Fe%20hat%20spin'),true))()
 end)
@@ -85,6 +81,14 @@ end)
 
 Section:NewButton("FE invisible script", "Hmm is that a ghost?", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/0Ben1/fe./dbb6ce6f6cee4f7a5c9e20d7b88e83db2a93bf25/Invisible%20GUI'))()
+end)
+
+Section:NewButton("FE Reanimation + click fling use w keyboard", "fling + reanimate lol", function()
+    loadstring(game:HttpGet("https://gist.githubusercontent.com/dark-modz/dcd8a483a1ba00904cc3261a8299cfa1/raw/9a60d9c7c1f4749e6be2c27e2cdb80dec5cd8f2a/clickfling",true))()
+end)
+
+Section:NewButton("FE Reanimation use w keyboard", "its a better animation that the old boring one that we have", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/d3uB90XA'),true))()
 end)
 
 local Tab = Window:NewTab("📜Gui’s📜")
@@ -111,6 +115,10 @@ Section:NewButton("ESP tracer exploit", "Helps find the little rats in slap roya
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/zachisfunny/esp-unversal/main/script'),true))()
 end)
 
+Section:NewButton("KAT exploit", "Pro aim", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/King-Hub-v2/main/Loader.lua'))()
+end)
+
 Section:NewButton("Da hood lock and speed", "Kill slenders with lock and speed LOL", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/Test051620110516/Dahood-mobile-speed/main/Exploit'),true))()
 
@@ -119,6 +127,10 @@ end)
 
 Section:NewButton("Funky Friday Gui", "Pro perfect score", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Yopapa699/Main/main/MainLoader.lua"))()
+end)
+
+Section:NewButton("Funky Friday Gui For PC", "Pro perfect score but on pc", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ShowerHead-FluxTeam/scripts/main/funky-friday-autoplay"))()
 end)
 
 Section:NewButton("Auto piano gui", "People actually believe you", function()
